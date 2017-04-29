@@ -16,7 +16,7 @@ namespace XamarinSampleSolutionShared
 
         string ReadAsString(string filename)
         {
-            return ReadAsString(filename);
+            return ReadAsStringImplementation(filename);
         }
 
         byte[] ReadAsBytes(string filename)
